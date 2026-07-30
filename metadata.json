@@ -1,0 +1,6 @@
+{
+  "name": "CÔNG TY TNHH TƯ VẤN VÀ XÂY DỰNG VTS",
+  "description": "Website giới thiệu chính thức Công ty TNHH Tư vấn và Xây dựng VTS - Chuyên tư vấn giám sát, thiết kế, thẩm tra, đấu thầu và thi công hệ thống PCCC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

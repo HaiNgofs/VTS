@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --vts-magenta: #9C1D5E;
+    --vts-magenta-dark: #7D1248;
+    --vts-magenta-light: #FDF2F7;
+    --vts-magenta-border: #F3CEE2;
+    --vts-gold: #D97706;
+  }
+}
+
+/* Custom VTS Brand Utility Classes */
+.bg-vts-primary {
+  background-color: #9C1D5E;
+}
+.bg-vts-dark {
+  background-color: #7D1248;
+}
+.bg-vts-light {
+  background-color: #FDF2F7;
+}
+.bg-vts-soft {
+  background-color: #FAF0F5;
+}
+
+.text-vts-primary {
+  color: #9C1D5E;
+}
+.text-vts-dark {
+  color: #7D1248;
+}
+
+.border-vts-primary {
+  border-color: #9C1D5E;
+}
+.border-vts-light {
+  border-color: #F3CEE2;
+}
+
+.hover\:bg-vts-primary:hover {
+  background-color: #9C1D5E;
+}
+.hover\:bg-vts-dark:hover {
+  background-color: #7D1248;
+}
+.hover\:text-vts-primary:hover {
+  color: #9C1D5E;
+}
+.hover\:border-vts-primary:hover {
+  border-color: #9C1D5E;
+}
+
+.from-vts-primary {
+  --tw-gradient-from: #9C1D5E var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(156 29 94 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-from), var(--tw-gradient-to));
+}
+.to-vts-dark {
+  --tw-gradient-to: #7D1248 var(--tw-gradient-to-position);
+}
+.from-vts-dark {
+  --tw-gradient-from: #7D1248 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(125 18 72 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-from), var(--tw-gradient-to));
+}
