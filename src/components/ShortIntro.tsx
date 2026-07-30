@@ -79,9 +79,12 @@ export const ShortIntro: React.FC<ShortIntroProps> = ({ onNavigate }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900">
               <img
-                src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
                 alt="Kỹ sư tư vấn giám sát VTS"
                 className="w-full h-[420px] object-cover opacity-90 hover:scale-105 transition-transform duration-700"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80";
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
               
